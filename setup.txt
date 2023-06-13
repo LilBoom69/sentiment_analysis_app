@@ -1,0 +1,31 @@
+To run the `app.py` file and start the Sentiment Analysis web application, you can follow these steps:
+
+1. Make sure you have Python 3.6 or a higher version installed on your system.
+
+2. Clone the repository or download the project files to your local machine.
+
+3. Open a command prompt or terminal and navigate to the project directory.
+
+4. Install the required dependencies by running the following command:
+   ```
+   pip install -r requirements.txt
+   ```
+
+5. Once the dependencies are installed, you can start the web application by running the following command:
+   ```
+   python app.py
+   ```
+
+6. The Flask application will start running and you will see output similar to the following:
+   ```
+   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+   ```
+
+7. Open a web browser and navigate to `http://localhost:5000` (or the URL displayed in the output). This will take you to the home page of the Sentiment Analysis web application.
+
+8. Enter the text you want to analyze in the provided input field.
+
+9. Click the "Analyze Sentiment" button to perform sentiment analysis on the input text.
+
+10. The predicted sentiment will be displayed on the web page.
+
